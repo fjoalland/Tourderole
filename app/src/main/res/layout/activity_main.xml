@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#2196f3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TAXI AMBULANCE"
+            android:id="@+id/textView12"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:id="@+id/LinearLayout">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.07"></FrameLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom d&apos;utlisateur"
+            android:textColor="#212121"
+            android:id="@+id/TextViewUtil" />
+
+        <EditText
+            android:id="@+id/EditTextUtilisateur"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:fadingEdge="horizontal"
+            android:layout_marginBottom="20dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe"
+            android:textColor="#212121" />
+
+        <EditText
+
+            android:id="@+id/EditTextPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:singleLine="true"
+            android:fadingEdge="horizontal"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.84"
+            android:weightSum="1">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ButtonConnexion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Se connecter"
+            android:background="#2196f3"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.05"></LinearLayout>
+
+        <Button
+            android:id="@+id/ButtonAnnuler"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:background="#2196f3"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

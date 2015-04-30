@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#2196f3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TAXI AMBULANCE"
+            android:id="@+id/textView12"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="410dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="191dp"
+                android:layout_height="match_parent"
+                android:text="textViewCommentaire"
+                android:id="@+id/textViewCommentaire" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="textViewUrgent"
+            android:id="@+id/textViewUrgent"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:text="textViewNom"
+            android:id="@+id/textViewNom"
+            android:layout_weight="0.11" />
+
+        <TextView
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:text="textViewPrenom"
+            android:id="@+id/textViewPrenom"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:text="textViewAdresse"
+            android:id="@+id/textViewAdresse"
+            android:layout_weight="0.10" />
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="textViewCp"
+            android:id="@+id/textViewCp"
+            android:layout_weight="0.10" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.23"
+            android:id="@+id/ll"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:id="@+id/LinearLayout">
+
+
+        <Button
+            android:id="@+id/ButtonSuivant"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Suivant >>"
+            android:background="#ff2d8031"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/ButtonPrecedent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:background="#ff2d8031"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
